@@ -1,9 +1,65 @@
-/* .home {
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+.home {
   background-color: #1d1d24;
   height: 700px;
+  margin-top: -30px;
   background-color: hsl(0deg 0% 6%);
-  background-image: url("http://trydo.rainbowit.net/assets/images/bg/bg-image-28.jpg") !important;
+  background-image: url("https://media.istockphoto.com/photos/the-black-and-silver-are-light-gray-with-white-the-gradient-is-the-picture-id1227082257?b=1&k=6&m=1227082257&s=170667a&w=0&h=fObmQKuuiWTBrNKc7jc8TSGDkPZOlemWb7Nq65s6R-k=") !important;
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-} */
+  border: 0.1px solid rgba(0, 0, 0, 0);
+}
+.home > div {
+  height: 500px;
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home_left {
+  height: 70%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2vw;
+}
+.typo1 {
+  color: #c6c9d8bf !important;
+  letter-spacing: 4px !important;
+  width: 100%;
+  font-family: Poppins !important;
+  margin-bottom: 5vw !important;
+}
+.typo2 {
+  color: white !important;
+  font-weight: 900 !important;
+  font-size: 4.5vw !important;
+  font-family: "Montserrat", sans-serif !important;
+  width: 100%;
+}
+.typo3 {
+  color: #f90048 !important;
+  font-weight: 900 !important;
+  font-size: 4.5vw !important;
+  font-family: "Montserrat", sans-serif !important;
+  width: 100%;
+}
+.home_right {
+  height: 60%;
+  width: 40%;
+  background-image: url(/Images/blob3.svg) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f90048;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home_right > img {
+  width: 26vw;
+  margin-top: -10vw;
+}
