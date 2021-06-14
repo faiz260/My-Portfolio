@@ -14,7 +14,7 @@ function Home() {
             Hi, I'm Faiz Shahnawaz
           </Typography>
           <Typography variant="h3" className="typo3">
-            JS Developer
+            Front-End Developer
           </Typography>
           <Typography variant="h3" className="typo2">
             based in Pakistan.

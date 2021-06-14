@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+.about {
+  border: 0.1px solid #181818;
+  background-color: #181818;
+}
+.about_me {
+  background-image: url(/Images/blob2.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-x: center;
+  /* border: 1px solid green; */
+  height: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10vw;
+}
+.about_me_head {
+  color: white !important;
+  font-weight: 900 !important;
+  font-size: 4.5vw !important;
+  font-family: "Montserrat", sans-serif !important;
+  margin-bottom: 5vw !important;
+}
+
+.about_me_text {
+  color: #ffffffbf !important;
+  width: 50% !important;
+  /* border: 1px solid; */
+  font-family: Poppins !important;
+  margin-bottom: 5vw !important;
+  font-size: 2vw !important;
+  width: 70vw;
+  text-align: center;
+}
+.main_skills {
+  padding: 3vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  /* margin-top: 10vw; */
+}
+.main_skills_head {
+  color: white !important;
+  font-weight: 500 !important;
+  font-size: 3vw !important;
+  font-family: "Montserrat", sans-serif !important;
+  margin-bottom: 5vw !important;
+}
+.skills_div {
+  /* border: 1px solid; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.about_div3 {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 90vw;
+  margin-top: 5vw;
+}
+.education {
+  margin-top: 5vw;
+}
+.edu_text {
+  color: #c8cbdabf !important;
+  font-family: Poppins !important;
+  margin-bottom: 1vw !important;
+  font-size: 1.6vw !important;
+  width: 43vw;
+}
+
+@media (max-width: 700px) {
+  .about_div3 {
+    flex-direction: column;
+  }
+  .education {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .education > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .edu_text {
+    font-size: 1.5vw !important;
+  }
+}
+@media (max-width: 600px) {
+  .about_me {
+    height: 90vw;
+  }
+  .about_me_head {
+    font-size: 5vw !important;
+  }
+  .main_skills_head {
+    font-size: 4vw !important;
+  }
+  .about_me_text {
+    font-size: 3vw !important;
+  }
+  .education {
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+  }
+  .edu_text {
+    font-size: 2vw !important;
+  }
+  .education > div {
+    align-items: baseline;
+  }
+}
+@media (max-width: 400px) {
+  .edu_text {
+    font-size: 2.5vw !important;
+    width: 100vw;
+  }
+  .education {
+    align-items: unset;
+    justify-content: unset;
+  }
+}

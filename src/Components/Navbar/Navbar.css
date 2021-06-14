@@ -24,12 +24,13 @@
   align-items: center;
   justify-content: space-around;
 }
-.links > span > a {
+
+.link {
   color: white;
   text-decoration: none;
   font-family: Poppins;
 }
-.links > span > a:hover {
+.link:hover {
   color: #f90048;
   border-bottom: 2px solid #f90048;
 }
@@ -52,3 +53,4 @@
     flex: 1.5;
   }
 }
+

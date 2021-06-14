@@ -8,17 +8,26 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { RiTwitterFill } from "react-icons/ri";
 
 function Navbar() {
-  const preventDefault = (event) => event.preventDefault();
-  console.log(window.innerWidth);
-  console.log(window.outerWidth);
   return (
     <div className="navbar">
       <div className="links">
         {window.innerWidth > 800 ? (
           <span>
-            <a href="#home">Home</a>
-            <a href="#About">About</a> <a href="#Service">Service</a>{" "}
-            <a href="#Portfolio">Portfolio</a> <a href="#Contact">Contact</a>
+            <a href="#home" className="link">
+              Home
+            </a>
+            <a href="#About" className="link">
+              About
+            </a>{" "}
+            <a href="#Service" className="link">
+              Service
+            </a>{" "}
+            <a href="#Portfolio" className="link">
+              Portfolio
+            </a>{" "}
+            <a href="#Contact" className="link">
+              Contact
+            </a>
           </span>
         ) : (
           false

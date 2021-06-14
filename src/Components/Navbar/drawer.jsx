@@ -20,7 +20,10 @@ const useStyles = makeStyles((theme) =>
         width: "50vw",
       },
     },
-
+    drawer_link: {
+      textDecoration: "none",
+      color: "grey"
+    },
     fullList: {
       width: "auto",
       border: "1px",
@@ -59,9 +62,8 @@ export default function TemporaryDrawer() {
     >
       <List>
         <ListItem>
-          <ListItemIcon >
+          <ListItemIcon>
             <CloseIcon
-              
               onClick={toggleDrawer(anchor, false)}
               style={{ cursor: "pointer" }}
             />
@@ -69,12 +71,14 @@ export default function TemporaryDrawer() {
         </ListItem>
         {["Home", "About", "Service", "Portfolio", "Contact"].map(
           (text, index) => (
-            <ListItem button key={text}>
-              <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItem>
+            <a href={`#${text}`} className={classes.drawer_link}>
+              <ListItem button key={text}>
+                <ListItemIcon>
+                  {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
+                </ListItemIcon>
+                <ListItemText primary={text} />
+              </ListItem>
+            </a>
           )
         )}
       </List>
