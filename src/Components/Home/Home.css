@@ -87,3 +87,29 @@
     width: 32.8vw;
   }
 }
+@media (max-width: 400px) {
+  .home {
+    height: 150vw;
+    padding-bottom: 30vw;
+  }
+  .home > div{
+    height: 125vw;
+  }
+  .typo1 {
+    font-size: 3vw !important;
+  }
+  .typo2 {
+    font-size: 5.5vw !important;
+  }
+  .typo3 {
+    font-size: 5.5vw !important;
+  }
+  .home_right {
+    width: 60vw;
+    height: 50vw;
+    margin-top: 15vw;
+  }
+  .home_right > img {
+    width: 39.4vw;
+  }
+}

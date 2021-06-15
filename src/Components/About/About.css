@@ -9,7 +9,6 @@
   background-repeat: no-repeat;
   background-size: auto;
   background-position-x: center;
-  /* border: 1px solid green; */
   height: 50vw;
   display: flex;
   align-items: center;
@@ -28,7 +27,6 @@
 .about_me_text {
   color: #ffffffbf !important;
   width: 50% !important;
-  /* border: 1px solid; */
   font-family: Poppins !important;
   margin-bottom: 5vw !important;
   font-size: 2vw !important;
@@ -120,8 +118,22 @@
   }
 }
 @media (max-width: 400px) {
+  .about_me {
+    padding-top: 10vw !important;
+    height: 80vw;
+  }
+  .about_me_head {
+    font-size: 8vw !important;
+  }
+  .about_me_text {
+    font-size: 3.5vw !important;
+    width: 80vw !important;
+  }
+  .main_skills_head{
+    font-size: 5vw !important;
+  }
   .edu_text {
-    font-size: 2.5vw !important;
+    font-size: 3vw !important;
     width: 100vw;
   }
   .education {

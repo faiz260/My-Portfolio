@@ -126,10 +126,26 @@
 }
 @media (max-width: 400px) {
   .service_text {
-    font-size: 2.5vw !important;
-    width: 60%;
+    font-size: 3.5vw !important;
+    width: 80%;
+  }
+  .card {
+    width: 80vw;
   }
   .card_text {
-    font-size: 2.5vw !important;
+    font-size: 3vw !important;
+    width: 70vw !important;
+    margin-left: 2vw !important;
+  }
+  .service_head {
+    font-size: 7vw !important;
+  }
+  .card_icon {
+    font-size: 5vw !important;
+    margin-left: 2vw !important;
+  }
+  .card_head {
+    font-size: 5vw !important;
+    margin-left: 2vw !important;
   }
 }

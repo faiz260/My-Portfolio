@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) =>
         fontSize: "1.5vw !important",
       },
       [theme.breakpoints.down("sm")]: {
-        fontSize: "2.5vw !important",
+        fontSize: "3vw !important",
       },
     },
   })
