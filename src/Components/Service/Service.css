@@ -1,0 +1,135 @@
+.service {
+  background-color: #101010;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2vw;
+}
+.service_header {
+  height: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.service_head {
+  color: white !important;
+  font-weight: 900 !important;
+  font-size: 4.5vw !important;
+  font-family: "Montserrat", sans-serif !important;
+  margin-bottom: 2vw !important;
+}
+
+.service_text {
+  color: #c8cbdabf !important;
+  font-family: Poppins !important;
+  margin-bottom: 1vw !important;
+  font-size: 1.6vw !important;
+  width: 50%;
+  text-align: center;
+}
+.service_cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 95vw;
+  margin-top: -3vw;
+}
+.card {
+  height: 25vw;
+  width: 25vw;
+  background-color: #181818 !important;
+  border-radius: 2vw !important;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding: 1.5vw;
+}
+.card_head {
+  color: white !important;
+  font-weight: 400 !important;
+  font-size: 2.5vw !important;
+  font-family: "Poppins", sans-serif !important;
+  margin-bottom: 1vw !important;
+}
+.card_text {
+  color: #c8cbdabf !important;
+  font-family: Poppins !important;
+  margin-bottom: 1vw !important;
+  font-size: 1.5vw !important;
+  width: 90%;
+  text-align: justify;
+}
+.card_icon {
+  color: white;
+  font-size: 4vw !important;
+  width: 4vw !important;
+}
+.card:hover {
+  background-image: linear-gradient(
+    90deg,
+    hsl(3deg 93% 51%),
+    hsl(337deg 93% 49%)
+  ) !important;
+  cursor: pointer;
+  transition: 0.3s ease-in-out !important;
+  transform: translateY(-1vw) !important;
+}
+
+@media (max-width: 900px) {
+  .card {
+    width: 30vw;
+    height: 30vw;
+    margin: 2vw;
+  }
+}
+@media (max-width: 700px) {
+  .service_text {
+    font-size: 1.9vw !important;
+  }
+  .card_text {
+    font-size: 2vw !important;
+  }
+  .card_head {
+    font-size: 4vw !important;
+  }
+  .card {
+    width: 50vw;
+    height: 40vw;
+    margin: 2vw;
+  }
+  .card_icon {
+    font-size: 5vw !important;
+    width: 5vw;
+  }
+}
+@media (max-width: 600px) {
+  .service_text {
+    font-size: 1.9vw !important;
+    width: 60%;
+  }
+  .service_header {
+    height: 50vw;
+    padding-top: 10vw;
+  }
+  .card {
+    width: 70vw;
+    height: 40vw;
+    margin: 2vw;
+  }
+  .card_text {
+    font-size: 2.5vw !important;
+  }
+}
+@media (max-width: 400px) {
+  .service_text {
+    font-size: 2.5vw !important;
+    width: 60%;
+  }
+  .card_text {
+    font-size: 2.5vw !important;
+  }
+}
