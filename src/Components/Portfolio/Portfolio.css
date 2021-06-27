@@ -38,6 +38,8 @@
   margin-top: -3vw;
 }
 .portfolio_card {
+  background-repeat: no-repeat;
+  background-size: contain;
   height: 45vw;
   width: 25vw;
   background-color: #333333bf !important;
@@ -47,6 +49,12 @@
   align-items: center;
   justify-content: center;
   padding: 1.5vw;
+  color: black;
+}
+.portfolio_card_img {
+  height: 20vw;
+  width: 25vw;
+  margin-bottom: 2vw;
 }
 .portfolio_card_head {
   color: white !important;
@@ -88,8 +96,12 @@
 @media (max-width: 900px) {
   .portfolio_card {
     width: 30vw;
-    height: 30vw;
+    height: 40vw;
     margin: 2vw;
+  }
+  .portfolio_card_btn {
+    height: 3vw;
+    font-size: 1.5vw !important;
   }
 }
 @media (max-width: 700px) {
@@ -129,14 +141,20 @@
   .portfolio_card_text {
     font-size: 2.5vw !important;
   }
+  .portfolio_card_btn {
+    height: 3.5vw;
+    font-size: 1.8vw !important;
+  }
 }
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .portfolio_text {
     font-size: 3.5vw !important;
     width: 80%;
   }
   .portfolio_card {
+    height: 60vw;
     width: 80vw;
+    justify-content: space-around;
   }
   .portfolio_card_text {
     font-size: 3vw !important;
@@ -153,5 +171,15 @@
   .portfolio_card_head {
     font-size: 5vw !important;
     margin-left: 2vw !important;
+  }
+  .portfolio_card_img {
+    height: 20vw;
+    width: 40vw;
+    margin-bottom: 2vw;
+  }
+  .portfolio_card_btn {
+    width: 6vw;
+    height: 7vw;
+    font-size: 2.5vw !important;
   }
 }

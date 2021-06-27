@@ -16,31 +16,55 @@ function Service() {
       </div>
       <div className="portfolio_cards">
         <Paper variant={2} className="portfolio_card">
+          <img src="/Images/app-back.png" className="portfolio_card_img"></img>
           <Typography variant="h2" className="portfolio_card_head">
-            Front-end Development
+            Amazon Clone
           </Typography>
           <Typography variant="subtitle1" className="portfolio_card_text">
             There are many variations of passages of Lorem Ipsum available, but
           </Typography>
-          <Button variant="outlined" className="portfolio_card_btn">
-            Contact now
+          <Button
+            href="https://clone-5145b.web.app/"
+            target="_blank"
+            variant="outlined"
+            className="portfolio_card_btn"
+          >
+            View
           </Button>
         </Paper>
         <Paper variant={2} className="portfolio_card">
+          <img src="/Images/app-back2.png" className="portfolio_card_img"></img>
           <Typography variant="h2" className="portfolio_card_head">
-            Front-end Development
+            Covid-19 Tracker App
           </Typography>
           <Typography variant="subtitle1" className="portfolio_card_text">
             There are many variations of passages of Lorem Ipsum available, but
           </Typography>
+          <Button
+            href="https://covid-19-tracker-45826.web.app/"
+            target="_blank"
+            variant="outlined"
+            className="portfolio_card_btn"
+          >
+            View
+          </Button>
         </Paper>
         <Paper variant={2} className="portfolio_card">
+          <img src="/Images/app-back4.png" className="portfolio_card_img"></img>
           <Typography variant="h2" className="portfolio_card_head">
-            Front-end Development
+            React Animated App
           </Typography>
           <Typography variant="subtitle1" className="portfolio_card_text">
             There are many variations of passages of Lorem Ipsum available, but
           </Typography>
+          <Button
+            href="http://react-animated-app-faiz.surge.sh/"
+            target="_blank"
+            variant="outlined"
+            className="portfolio_card_btn"
+          >
+            View
+          </Button>
         </Paper>
       </div>
     </div>
