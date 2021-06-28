@@ -68,6 +68,9 @@
 .contact_img > img {
   height: 40vw !important;
 }
+.alert {
+  margin: 2vw;
+}
 @media (max-width: 700px) {
   .contact {
     flex-direction: column-reverse;

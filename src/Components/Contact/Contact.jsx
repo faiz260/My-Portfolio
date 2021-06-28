@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import "./Contact.css";
-import { Typography } from "@material-ui/core";
+import { Typography, Collapse, IconButton } from "@material-ui/core";
 import Alert from "@material-ui/lab/Alert";
+import CloseIcon from "@material-ui/icons/Close";
 
 function Contact() {
+  const [emailSent, setemailSent] = useState(false);
+  const [open, setOpen] = useState(true);
+
+  console.log("Email sent 1 ", emailSent);
   function sendEmail(e) {
     e.preventDefault();
 
@@ -18,7 +23,8 @@ function Contact() {
       .then(
         (result) => {
           console.log(result.text);
-          alert("Message Sent!");
+          setemailSent(true);
+          console.log("Email Sent ", emailSent);
         },
         (error) => {
           console.log(error.text);
@@ -26,6 +32,7 @@ function Contact() {
       );
     e.target.reset();
   }
+
   return (
     <div className="contact" id="#Contact">
       <div className="contact_form">
@@ -36,6 +43,30 @@ function Contact() {
           I am available for freelance work. Connect with me via phone: 01923
           088574 or email: admin@example.com
         </Typography>
+
+        {emailSent ? (
+          <Collapse in={open}>
+            <Alert
+              className="alert"
+              action={
+                <IconButton
+                  aria-label="close"
+                  color="inherit"
+                  size="small"
+                  onClick={() => {
+                    setOpen(false);
+                  }}
+                >
+                  <CloseIcon fontSize="inherit" />
+                </IconButton>
+              }
+            >
+              Email Sent!
+            </Alert>
+          </Collapse>
+        ) : (
+          false
+        )}
         <form onSubmit={sendEmail} className="form">
           <input
             type="text"
