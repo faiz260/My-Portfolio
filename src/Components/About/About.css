@@ -4,8 +4,35 @@
   border: 0.1px solid #181818;
   background-color: #181818;
 }
+.shape4 {
+  position: absolute;
+  top: 90vw;
+  left: 5vw;
+  animation: shape4_spin infinite 10s linear;
+}
+@keyframes shape4_spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.shape5 {
+  position: absolute;
+  top: 90vw;
+  left: 5vw;
+  animation: shape5_spin infinite 20s linear;
+}
+@keyframes shape5_spin {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
 .about_me {
-  background-image: url(/Images/blob2.svg);
   background-repeat: no-repeat;
   background-size: auto;
   background-position-x: center;
@@ -92,6 +119,14 @@
   .edu_text {
     font-size: 1.5vw !important;
   }
+  .shape4 {
+    top: 135vw;
+    left: 2vw;
+  }
+  .shape5 {
+    top: 135vw;
+    left: 2vw;
+  }
 }
 @media (max-width: 600px) {
   .about_me {
@@ -116,6 +151,14 @@
   .education > div {
     align-items: baseline;
   }
+  .shape4 {
+    left: -2vw;
+    width: 35vw;
+  }
+  .shape5 {
+    left: -2vw;
+    width: 35vw;
+  }
 }
 @media (max-width: 400px) {
   .about_me {
@@ -129,7 +172,7 @@
     font-size: 3.5vw !important;
     width: 80vw !important;
   }
-  .main_skills_head{
+  .main_skills_head {
     font-size: 5vw !important;
   }
   .edu_text {
@@ -139,5 +182,15 @@
   .education {
     align-items: unset;
     justify-content: unset;
+  }
+  .shape4 {
+    top: 190vw;
+    left: -2vw;
+    width: 30vw;
+  }
+  .shape5 {
+    top: 190vw;
+    left: -2vw;
+    width: 30vw;
   }
 }

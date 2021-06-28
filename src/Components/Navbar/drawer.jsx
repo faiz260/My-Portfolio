@@ -14,15 +14,20 @@ import CloseIcon from "@material-ui/icons/Close";
 
 const useStyles = makeStyles((theme) =>
   createStyles({
+    drawer: {
+      // backgroundColor: "#101010",
+    },
     list: {
       width: "30vw",
+      height: "100%",
+      backgroundColor: "#101010",
       [theme.breakpoints.down("xs")]: {
         width: "50vw",
       },
     },
     drawer_link: {
       textDecoration: "none",
-      color: "grey"
+      color: "white",
     },
     fullList: {
       width: "auto",
@@ -65,7 +70,7 @@ export default function TemporaryDrawer() {
           <ListItemIcon>
             <CloseIcon
               onClick={toggleDrawer(anchor, false)}
-              style={{ cursor: "pointer" }}
+              style={{ cursor: "pointer", color: "white" }}
             />
           </ListItemIcon>
         </ListItem>
@@ -73,9 +78,6 @@ export default function TemporaryDrawer() {
           (text, index) => (
             <a href={`#${text}`} className={classes.drawer_link}>
               <ListItem button key={text}>
-                <ListItemIcon>
-                  {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                </ListItemIcon>
                 <ListItemText primary={text} />
               </ListItem>
             </a>
@@ -99,6 +101,7 @@ export default function TemporaryDrawer() {
             anchor={anchor}
             open={state[anchor]}
             onClose={toggleDrawer(anchor, false)}
+            className={classes.drawer}
           >
             {list(anchor)}
           </Drawer>

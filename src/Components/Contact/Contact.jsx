@@ -34,14 +34,14 @@ function Contact() {
   }
 
   return (
-    <div className="contact" id="#Contact">
+    <div className="contact" id="Contact">
       <div className="contact_form">
         <Typography variant="h2" className="contact_head">
           Contact Me
         </Typography>
         <Typography variant="body1" className="contact_me_text">
-          I am available for freelance work. Connect with me via phone: 01923
-          088574 or email: admin@example.com
+          I am available for freelance work. Connect with me via phone:
+          03462772919 or email: razafaiz@gmail.com
         </Typography>
 
         {emailSent ? (

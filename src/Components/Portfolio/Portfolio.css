@@ -89,8 +89,8 @@
     hsl(337deg 93% 49%)
   ) !important;
   cursor: pointer;
-  transition: 0.3s ease-in-out !important;
-  transform: translateY(-1vw) !important;
+  transition: 0.4s ease-in-out !important;
+  transform: scale(1.05, 1.05) !important;
 }
 
 @media (max-width: 900px) {

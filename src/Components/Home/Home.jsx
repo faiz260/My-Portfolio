@@ -7,6 +7,8 @@ function Home() {
     <div id="home" className="home">
       <div>
         <div className="home_left">
+          <img src="/Images/shape1.png" alt="shape" className="shape1" />
+          <img src="/Images/shape3.png" alt="shape" className="shape2" />
           <Typography variant="subtitle1" className="typo1">
             Welcome to my world
           </Typography>
@@ -21,11 +23,11 @@ function Home() {
           </Typography>
         </div>
         <div className="home_right">
-          <img
-            src="/Images/Faiz-front-photo-removebg-preview (1).png"
-            alt="faiz-shahnawaz"
-          />
+          <img src="/Images/Untitled design (7).png" alt="faiz-shahnawaz" />
         </div>
+      </div>
+      <div className="path_circle">
+        <img src="/Images/path-circle.png" alt="path" />
       </div>
     </div>
   );
