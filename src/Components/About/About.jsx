@@ -7,6 +7,11 @@ function About() {
   return (
     <div className="about" id="About">
       <div className="about_me">
+        <img
+          src="/Images/Dark Blue and Red Dynamic Software Solutions Website.png"
+          alt="bg"
+          className="about_bg"
+        />
         <img src="/Images/shape4.png" alt="shape" className="shape4" />
         <img src="/Images/shape5.png" alt="shape" className="shape5" />
         <Typography variant="h2" className="about_me_head">

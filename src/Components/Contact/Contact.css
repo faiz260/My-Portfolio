@@ -58,6 +58,15 @@
   border: 1px solid #f90048;
   background-color: #f90048;
 }
+.input_btn:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  transition: 0.2s ease-in-out;
+}
+.input_btn:focus {
+  transform: translateY(1px);
+  transition: 0.1s ease-in-out;
+}
 
 .contact_img {
   width: 50vw;

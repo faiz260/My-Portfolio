@@ -101,7 +101,6 @@
   margin-left: 1vw;
 }
 .path_circle {
-  /* border: 1px solid white; */
   width: 25vw;
   height: 30vw !important;
   position: absolute;
@@ -198,6 +197,6 @@
   .path_circle {
     top: 26vw;
     left: 78vw;
-    width: 25vw !important;
+    width: 20vw !important;
   }
 }

@@ -10,8 +10,8 @@ function Service() {
           My Latest Projects
         </Typography>
         <Typography variant="subtitle1" className="portfolio_text">
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration.
+          Here you will find some of my latest projects to get a better idea of
+          my work.
         </Typography>
       </div>
       <div className="portfolio_cards">
@@ -21,7 +21,8 @@ function Service() {
             Amazon Clone
           </Typography>
           <Typography variant="subtitle1" className="portfolio_card_text">
-            There are many variations of passages of Lorem Ipsum available, but
+            Clone of the Amazon Web app using ReactJS, Redux, Material-UI and
+            CSS.
           </Typography>
           <Button
             href="https://clone-5145b.web.app/"
@@ -38,7 +39,8 @@ function Service() {
             Covid-19 Tracker App
           </Typography>
           <Typography variant="subtitle1" className="portfolio_card_text">
-            There are many variations of passages of Lorem Ipsum available, but
+            A classic COVID-19 Tracker application with ReactJS, Material-UI,
+            CSS, Chart.js, leaflet and hosted on Firebase.
           </Typography>
           <Button
             href="https://covid-19-tracker-45826.web.app/"
@@ -50,15 +52,19 @@ function Service() {
           </Button>
         </Paper>
         <Paper variant={2} className="portfolio_card">
-          <img src="/Images/app-back4.png" className="portfolio_card_img"></img>
+          <img
+            src="/Images/Screenshot from 2021-07-01 23-45-03.png"
+            className="portfolio_card_img"
+          ></img>
           <Typography variant="h2" className="portfolio_card_head">
-            React Animated App
+            Banking application UI
           </Typography>
           <Typography variant="subtitle1" className="portfolio_card_text">
-            There are many variations of passages of Lorem Ipsum available, but
+            A fully responsive, eye catching and user friendly UI for a banking
+            application using ReactJS and CSS.
           </Typography>
           <Button
-            href="http://react-animated-app-faiz.surge.sh/"
+            href="https://banking-app-ui.netlify.app/"
             target="_blank"
             variant="outlined"
             className="portfolio_card_btn"

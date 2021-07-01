@@ -8,7 +8,7 @@
   position: fixed;
   top: 0;
   width: 96%;
-  z-index: 1;
+  z-index: 2;
 }
 .nav_scrolled {
   background-color: black;
