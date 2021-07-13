@@ -7,7 +7,7 @@
 .shape4 {
   position: absolute;
   top: 90vw;
-  left: 5vw;
+  right: 5vw;
   animation: shape4_spin infinite 10s linear;
 }
 .about_bg {
@@ -28,7 +28,7 @@
 .shape5 {
   position: absolute;
   top: 90vw;
-  left: 5vw;
+  right: 5vw;
   animation: shape5_spin infinite 20s linear;
 }
 @keyframes shape5_spin {
@@ -38,6 +38,24 @@
   to {
     transform: rotate(0deg);
   }
+}
+.wrapper2 {
+  position: absolute;
+  height: 20vw;
+  width: 100%;
+  transition: 0.6s ease-in-out;
+}
+.shapeX1 {
+  position: absolute;
+  top: 120vw;
+  right: 25vw;
+  width: 5vw;
+}
+.shapeX2 {
+  position: absolute;
+  top: 40vw;
+  left: 10vw;
+  width: 5vw;
 }
 .about_me {
   background-repeat: no-repeat;
@@ -135,15 +153,27 @@
     font-size: 1.5vw !important;
   }
   .shape4 {
-    top: 135vw;
-    left: 2vw;
+    top: 130vw;
+    right: 10vw;
+    width: 20vw;
   }
   .shape5 {
-    top: 135vw;
-    left: 2vw;
+    top: 130vw;
+    right: 10vw;
+    width: 20vw;
   }
   .about_bg {
     top: 126vw;
+  }
+  .shapeX1 {
+    top: 85vw;
+    right: 15vw;
+    width: 5vw;
+  }
+  .shapeX2 {
+    top: 85vw;
+    left: 15vw;
+    width: 5vw;
   }
 }
 @media (max-width: 600px) {
@@ -170,16 +200,26 @@
     align-items: baseline;
   }
   .shape4 {
-    left: -2vw;
-    width: 35vw;
+    right: 7vw;
+    width: 25vw;
   }
   .shape5 {
-    left: -2vw;
-    width: 35vw;
+    right: 7vw;
+    width: 25vw;
   }
   .about_bg {
     height: 80vw;
     top: 125.5vw;
+  }
+  .shapeX1 {
+    top: 75vw;
+    right: 15vw;
+    width: 5vw;
+  }
+  .shapeX2 {
+    top: 95vw;
+    left: 15vw;
+    width: 5vw;
   }
 }
 @media (max-width: 400px) {
@@ -206,18 +246,30 @@
     justify-content: unset;
   }
   .shape4 {
-    top: 190vw;
-    left: -2vw;
+    top: 185vw;
+    right: 7vw;
     width: 30vw;
   }
   .shape5 {
-    top: 190vw;
-    left: -2vw;
+    top: 185vw;
+    right: 7vw;
     width: 30vw;
   }
   .about_bg {
     width: 99vw;
     height: 80vw;
     top: 172.5vw;
+  }
+  .shapeX1 {
+    top: 105vw;
+    right: 7vw;
+    width: 5vw;
+    display: none;
+  }
+  .shapeX2 {
+    top: 125vw;
+    left: 15vw;
+    width: 5vw;
+    display: none;
   }
 }

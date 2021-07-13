@@ -12,6 +12,13 @@
   border: 0.1px solid rgba(0, 0, 0, 0);
   /* border: 1px solid white; */
 }
+.wrapper {
+  position: absolute;
+  top: 7vw;
+  height: 20vw;
+  width: 100%;
+  transition: 0.8s ease-in-out;
+}
 .home > div {
   height: 60vw;
   margin-top: 90px;
@@ -31,8 +38,8 @@
 }
 .shape1 {
   position: absolute;
-  top: 10vw;
-  right: 37vw;
+  top: 5vw;
+  right: 15vw;
   width: 10vw;
   animation: shape1_spin infinite 20s linear;
 }
@@ -48,8 +55,8 @@
 .shape2 {
   position: absolute;
   width: 7vw;
-  top: 10vw;
-  right: 77vw;
+  top: 5vw;
+  left: 30vw;
   animation: shape1_spin infinite 10s linear;
 }
 .typo1 {
@@ -146,7 +153,7 @@
   }
   .shape1 {
     width: 15vw;
-    top: 20vw;
+    top: 10vw;
     right: 8vw;
   }
   .shape2 {
@@ -185,7 +192,7 @@
     width: 100%;
   }
   .shape1 {
-    top: 23vw;
+    top: 16vw;
     right: 5vw;
     width: 15vw;
   }

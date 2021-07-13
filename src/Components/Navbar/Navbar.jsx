@@ -72,7 +72,11 @@ function Navbar() {
         </a>
       </div>
       {window.innerWidth > 800 ? (
-        <Button variant="outlined" className="nav_contact_button">
+        <Button
+          variant="outlined"
+          className="nav_contact_button"
+          href="#Contact"
+        >
           Contact now
         </Button>
       ) : (

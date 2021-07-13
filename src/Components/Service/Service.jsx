@@ -4,50 +4,64 @@ import "./Service.css";
 import { FiMonitor } from "react-icons/fi";
 import { ImStack } from "react-icons/im";
 import { SiAzuredevops } from "react-icons/si";
+import Fade from "react-reveal/Fade";
+import Slide from "react-reveal/Slide";
 
 function Service() {
   return (
     <div className="service" id="Service">
       <div className="service_header">
-        <Typography variant="h2" className="service_head">
-          My Awesome Services
-        </Typography>
+        <Fade bottom>
+          <Typography variant="h2" className="service_head">
+            My Awesome Services
+          </Typography>
+        </Fade>
         <Typography variant="subtitle1" className="service_text">
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration.
+          <Fade bottom>
+            The valuable services that I offer with my skillset to add value to
+            your bussiness and scale your bussiness.
+          </Fade>
         </Typography>
       </div>
       <div className="service_cards">
-        <Paper variant={2} className="card">
-          <FiMonitor className="card_icon" />
-          <Typography variant="h2" className="card_head">
-            Front-end Development
-          </Typography>
-          <Typography variant="subtitle1" className="card_text">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration.
-          </Typography>
-        </Paper>
-        <Paper variant={2} className="card">
-          <ImStack className="card_icon" />
-          <Typography variant="h2" className="card_head">
-            Full Stack development
-          </Typography>
-          <Typography variant="subtitle1" className="card_text">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration.
-          </Typography>
-        </Paper>
-        <Paper variant={2} className="card">
-          <SiAzuredevops className="card_icon" />
-          <Typography variant="h2" className="card_head">
-            DevOps
-          </Typography>
-          <Typography variant="subtitle1" className="card_text">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration.
-          </Typography>
-        </Paper>
+        <Slide right>
+          <Paper variant={2} className="card">
+            <FiMonitor className="card_icon" />
+            <Typography variant="h2" className="card_head">
+              Front-end Development
+            </Typography>
+            <Typography variant="subtitle1" className="card_text">
+              I develop front-end for the web apps that will attract more
+              users. I will turn your design into reality with super
+              responsiveness.
+            </Typography>
+          </Paper>
+        </Slide>
+        <Slide right>
+          <Paper variant={2} className="card">
+            <ImStack className="card_icon" />
+            <Typography variant="h2" className="card_head">
+              Full Stack development
+            </Typography>
+            <Typography variant="subtitle1" className="card_text">
+              The stack you need to grow your bussiness will be done by me, with
+              the latest stack in my skillse.
+            </Typography>
+          </Paper>
+        </Slide>
+        <Slide right>
+          <Paper variant={2} className="card">
+            <SiAzuredevops className="card_icon" />
+            <Typography variant="h2" className="card_head">
+              DevOps
+            </Typography>
+            <Typography variant="subtitle1" className="card_text">
+              From development to operations, all your needs will be fulfill
+              here. Using the latest tools and technology, your bussiness will
+              scale efficiently.
+            </Typography>
+          </Paper>
+        </Slide>
       </div>
     </div>
   );

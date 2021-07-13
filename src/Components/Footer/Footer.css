@@ -1,0 +1,120 @@
+.Footer {
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 25vw;
+  width: 98.3vw;
+  background-color: #181818;
+}
+.icons_div {
+  /* border: 1px solid; */
+  height: 8vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.icon {
+  color: #181818;
+  font-size: 1.3rem;
+}
+.icon:hover {
+  color: white;
+}
+.icon_div {
+  border: 1px solid #f90048;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4vw;
+  height: 4vw;
+  text-align: center;
+  margin: 0 1vw;
+  border-radius: 50%;
+  background-color: #f90048;
+}
+.nav_div {
+  /* border: 1px solid; */
+  height: 5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.footer_link {
+  color: white;
+  text-decoration: none;
+  font-family: Poppins;
+  border-right: 1px solid;
+  padding: 0 1vw;
+  margin-left: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.last_link {
+  border: none;
+}
+.footer_link:hover {
+  color: #f90048;
+  /* border-bottom: 2px solid #f90048; */
+  transition: 0.2s ease-in-out;
+  /* transform: translateY(3px) !important; */
+  height: 3vw;
+}
+.credits {
+  /* border: 1px solid white; */
+  height: 5vw;
+  margin-bottom: -7vw;
+  background-color: #f90048;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c_icon {
+  color: white;
+  font-size: 1.2rem;
+}
+@media (max-width: 700px) {
+  .credits {
+    font-size: 0.8rem;
+  }
+  .icon {
+    font-size: 1rem;
+  }
+  .footer_link {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 500px) {
+  .credits {
+    font-size: 0.8rem;
+  }
+  .icon_div {
+    width: 5vw;
+    height: 5vw;
+  }
+  .icon {
+    font-size: 0.8rem;
+  }
+  .Footer{
+      height: 30vw;
+  }
+  .nav_div {
+    height: 15vw;
+  }
+  .footer_link {
+    font-size: 0.8rem;
+  }
+  .credits{
+      height: 6vw;
+      width: 100vw;
+      font-size: 0.6rem;
+  }
+  .c_icon{
+      font-size: 0.6rem;
+  }
+}

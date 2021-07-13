@@ -1,0 +1,21 @@
+{
+  "card1": {
+    "heading": " Amazon Clone",
+    "des": "Clone of the Amazon Web app using ReactJS, Redux, Material-UI and CSS.",
+    "src": "/Images/app-back.png",
+    "href": "https://clone-5145b.web.app/"
+  },
+
+  "card2": {
+    "heading": " Amazon Clone",
+    "des": "Clone of the Amazon Web app using ReactJS, Redux, Material-UI and CSS.",
+    "src": "/Images/app-back.png",
+    "href": "https://clone-5145b.web.app/"
+  },
+  "card3": {
+    "heading": " Amazon Clone",
+    "des": "Clone of the Amazon Web app using ReactJS, Redux, Material-UI and CSS.",
+    "src": "/Images/app-back.png",
+    "href": "https://clone-5145b.web.app/"
+  }
+}
