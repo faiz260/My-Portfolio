@@ -36,9 +36,7 @@ function Home() {
           </div>
         </Fade>
       </div>
-      <div className="path_circle">
-        {/* <img src="/Images/path-circle.png" alt="path" /> */}
-      </div>
+
     </div>
   );
 }

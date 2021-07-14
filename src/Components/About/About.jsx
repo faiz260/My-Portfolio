@@ -3,13 +3,16 @@ import { Typography } from "@material-ui/core";
 import Slider from "./Slider";
 import "./About.css";
 import AboutMe from "./AboutMe";
-import RellaxWrapper from "react-rellax-wrapper";
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
+import { FaArrowCircleUp } from "react-icons/fa";
 
 function About() {
   return (
     <div className="about" id="About">
+      <a href="#home">
+        <FaArrowCircleUp className="top_button" />
+      </a>
       <AboutMe />
       <div className="main_skills">
         <div>

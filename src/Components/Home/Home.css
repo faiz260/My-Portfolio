@@ -107,22 +107,34 @@
   margin-top: -10vw;
   margin-left: 1vw;
 }
-.path_circle {
-  width: 25vw;
-  height: 30vw !important;
-  position: absolute;
-  top: 32vw;
-  left: 46vw;
-  overflow: hidden;
-}
-.path_circle > img {
-  width: 35vw;
-  height: 35vw;
-  position: absolute;
-  right: 7vw;
-  top: 5vw;
-  animation: circle_spin infinite 10s linear;
-}
+/* 
+.top_button {
+  color: #f90048;
+  background-color: hsl(0deg 0% 6%);
+  font-size: 5vw;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 2;
+  bottom: 3vw;
+  left: 2vw;
+  animation: ease-in-out top_button 1s infinite;
+  cursor: pointer;
+} */
+/* @keyframes top_button {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(1.5vw);
+  }
+  from {
+    transform: translateY(0vw);
+  }
+  to {
+    transform: translateY(-1.5vw);
+  }
+} */
+
 @keyframes circle_spin {
   from {
     transform: rotate(0deg);

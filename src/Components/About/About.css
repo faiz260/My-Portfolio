@@ -4,6 +4,33 @@
   border: 0.1px solid #181818;
   background-color: #181818;
 }
+
+.top_button {
+  color: #f90048;
+  background-color: hsl(0deg 0% 6%);
+  font-size: 3rem;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 2;
+  bottom: 3vw;
+  left: 2vw;
+  animation: ease-in-out top_button 1s infinite;
+  cursor: pointer;
+}
+@keyframes top_button {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(1.5rem);
+  }
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-1.5rem);
+  }
+}
 .shape4 {
   position: absolute;
   top: 90vw;
