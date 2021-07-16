@@ -5,7 +5,6 @@ import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 
 function Service() {
-
   return (
     <div className="portfolio" id="Portfolio">
       <div className="portfolio_header">
@@ -69,18 +68,19 @@ function Service() {
           </Paper>
           <Paper variant={2} className="portfolio_card">
             <img
-              src="/Images/Screenshot from 2021-07-01 23-45-03.png"
+              src="/Images/app-back.png"
               className="portfolio_card_img"
             ></img>
             <Typography variant="h2" className="portfolio_card_head">
-              Banking application UI
+              Amazon Clone
             </Typography>
             <Typography variant="subtitle1" className="portfolio_card_text">
-              A fully responsive, eye catching and user friendly UI for a
-              banking application using ReactJS and CSS.
-            </Typography>
+              A small clone of the Amazon website with add-to-cart
+              functionality. The cart is functional as well where you will see
+              the selected products and total bill.
+            </Typography>       
             <Button
-              href="https://banking-app-ui.netlify.app/"
+              href="https://clone-5145b.web.app/"
               target="_blank"
               variant="outlined"
               className="portfolio_card_btn"
