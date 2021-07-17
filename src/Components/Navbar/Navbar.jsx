@@ -36,26 +36,13 @@ function Navbar() {
       </div>
       <div className="social_links">
         <a
-          href="https://www.facebook.com/M.faiz.raza.21"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <RiFacebookFill className="social_icon" />
-        </a>
-        <a
           href="https://www.linkedin.com/in/faiz-raza-69835a166/1"
           target="_blank"
           rel="noopener noreferrer"
         >
           <RiLinkedinFill className="social_icon" />
         </a>
-        <a
-          href="https://www.instagram.com/m_faiz_shahnawaz/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <AiOutlineInstagram className="social_icon" />
-        </a>
+
         <a
           href="https://twitter.com/FaizShahnawaz1?s=09"
           target="_blank"

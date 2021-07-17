@@ -26,20 +26,29 @@ function Service() {
       <div className="service_cards">
         <Slide right>
           <Paper variant={2} className="card">
-            <FiMonitor className="card_icon" />
+            {/* <FiMonitor className="card_icon" /> */}
+            <img
+              src="/Images/monitor.png"
+              alt="web-design"
+              className="card_icon"
+            />
             <Typography variant="h2" className="card_head">
               Front-end Development
             </Typography>
             <Typography variant="subtitle1" className="card_text">
-              I develop front-end for the web apps that will attract more
-              users. I will turn your design into reality with super
-              responsiveness.
+              I develop front-end for the web apps that will attract more users.
+              I will turn your design into reality with super responsiveness.
             </Typography>
           </Paper>
         </Slide>
         <Slide right>
           <Paper variant={2} className="card">
-            <ImStack className="card_icon" />
+            {/* <ImStack className="card_icon" /> */}
+            <img
+              src="/Images/cube-of-notes-stack.png"
+              alt="web-design"
+              className="card_icon"
+            />
             <Typography variant="h2" className="card_head">
               Full Stack development
             </Typography>
@@ -51,14 +60,19 @@ function Service() {
         </Slide>
         <Slide right>
           <Paper variant={2} className="card">
-            <SiAzuredevops className="card_icon" />
+            {/* <SiAzuredevops className="card_icon" /> */}
+            <img
+              src="/Images/web-design.png"
+              alt="web-design"
+              className="card_icon"
+            />
             <Typography variant="h2" className="card_head">
-              DevOps
+              Web Design
             </Typography>
             <Typography variant="subtitle1" className="card_text">
-              From development to operations, all your needs will be fulfill
-              here. Using the latest tools and technology, your bussiness will
-              scale efficiently.
+              I have a very unique and creative designs for your bussiness,
+              personal or any kind of app that will stick the eye balls of the
+              users on it.
             </Typography>
           </Paper>
         </Slide>

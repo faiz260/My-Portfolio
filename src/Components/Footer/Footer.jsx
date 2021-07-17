@@ -16,29 +16,11 @@ function Footer() {
         <div className="icons_div">
           <div className="icon_div">
             <a
-              href="https://www.facebook.com/M.faiz.raza.21"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <RiFacebookFill className="icon" />
-            </a>
-          </div>
-          <div className="icon_div">
-            <a
               href="https://www.linkedin.com/in/faiz-raza-69835a166/1"
               target="_blank"
               rel="noopener noreferrer"
             >
               <RiLinkedinFill className="icon" />
-            </a>
-          </div>
-          <div className="icon_div">
-            <a
-              href="https://www.instagram.com/m_faiz_shahnawaz/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <AiOutlineInstagram className="icon" />
             </a>
           </div>
           <div className="icon_div">

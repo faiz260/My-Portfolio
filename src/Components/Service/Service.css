@@ -64,7 +64,7 @@
   text-align: justify;
 }
 .card_icon {
-  color: white;
+  color: white !important; 
   font-size: 4vw !important;
   width: 4vw !important;
 }
@@ -103,7 +103,7 @@
   }
   .card_icon {
     font-size: 5vw !important;
-    width: 5vw;
+    width:2rem !important;
   }
 }
 @media (max-width: 600px) {
@@ -141,7 +141,7 @@
     font-size: 7vw !important;
   }
   .card_icon {
-    font-size: 5vw !important;
+    width: 1.5rem !important;
     margin-left: 2vw !important;
   }
   .card_head {
