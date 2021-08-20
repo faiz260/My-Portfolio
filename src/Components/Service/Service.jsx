@@ -36,7 +36,7 @@ function Service() {
               Front-end Development
             </Typography>
             <Typography variant="subtitle1" className="card_text">
-              I develop front-end for the web apps that will attract more users.
+              I develop front-end for the web + apps that will attract more users.
               I will turn your design into reality with super responsiveness.
             </Typography>
           </Paper>

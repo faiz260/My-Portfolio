@@ -32,11 +32,13 @@ function Home() {
         </div>
         <Fade bottom>
           <div className="home_right">
-            <img src="/Images/Untitled design (7).png" alt="faiz-shahnawaz" />
+            <img
+              src="/Images/Untitled design (7).png"
+              alt="faiz-shahnawaz"
+            />
           </div>
         </Fade>
       </div>
-
     </div>
   );
 }
