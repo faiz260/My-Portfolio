@@ -1,7 +1,6 @@
 import React from "react";
 import { Typography } from "@material-ui/core";
 import "./About.css";
-import RellaxWrapper from "react-rellax-wrapper";
 import Fade from "react-reveal/Fade";
 
 function AboutMe() {

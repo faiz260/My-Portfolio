@@ -1,9 +1,6 @@
 import React from "react";
 import { Typography, Paper } from "@material-ui/core";
 import "./Service.css";
-import { FiMonitor } from "react-icons/fi";
-import { ImStack } from "react-icons/im";
-import { SiAzuredevops } from "react-icons/si";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 

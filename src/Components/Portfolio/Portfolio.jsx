@@ -38,10 +38,6 @@ const data = [
 ];
 
 function Service() {
-  data.map((data) => {
-    console.log(data.title);
-  });
-
   return (
     <div className="portfolio" id="Portfolio">
       <div className="portfolio_header">
@@ -63,7 +59,11 @@ function Service() {
           {data.map((data) => {
             return (
               <Paper variant={2} className="portfolio_card">
-                <img src={data.img} className="portfolio_card_img"></img>
+                <img
+                  src={data.img}
+                  className="portfolio_card_img"
+                  alt="project"
+                ></img>
                 <Typography variant="h2" className="portfolio_card_head">
                   {data.title}
                 </Typography>

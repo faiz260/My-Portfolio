@@ -1,8 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { RiFacebookFill } from "react-icons/ri";
 import { RiLinkedinFill } from "react-icons/ri";
-import { AiOutlineInstagram } from "react-icons/ai";
 import { RiTwitterFill } from "react-icons/ri";
 import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineCopyrightCircle } from "react-icons/ai";

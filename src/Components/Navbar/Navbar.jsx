@@ -2,9 +2,7 @@ import { Button } from "@material-ui/core";
 import React from "react";
 import Drawer from "./drawer";
 import "./Navbar.css";
-import { RiFacebookFill } from "react-icons/ri";
 import { RiLinkedinFill } from "react-icons/ri";
-import { AiOutlineInstagram } from "react-icons/ai";
 import { RiTwitterFill } from "react-icons/ri";
 import { AiFillGithub } from "react-icons/ai";
 
