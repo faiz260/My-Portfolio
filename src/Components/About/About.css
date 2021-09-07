@@ -278,6 +278,9 @@
     left: 15vw;
     width: 5vw;
   }
+  .main_skills_head{
+    font-size: 2rem !important;
+  }
 }
 @media (max-width: 600px) {
   .ex_card {
@@ -295,9 +298,6 @@
   }
   .about_me_head {
     font-size: 5vw !important;
-  }
-  .main_skills_head {
-    font-size: 4vw !important;
   }
   .about_me_text {
     font-size: 3vw !important;
@@ -351,9 +351,6 @@
   .about_me_text {
     font-size: 3.5vw !important;
     width: 80vw !important;
-  }
-  .main_skills_head {
-    font-size: 5vw !important;
   }
   .edu_text {
     font-size: 0.8rem !important;
