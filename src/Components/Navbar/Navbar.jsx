@@ -10,27 +10,27 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="links">
-        {window.innerWidth > 800 ? (
-          <span>
-            <a href="#home" className="link">
-              Home
-            </a>
-            <a href="#About" className="link">
-              About
-            </a>{" "}
-            <a href="#Service" className="link">
-              Service
-            </a>{" "}
-            <a href="#Portfolio" className="link">
-              Portfolio
-            </a>{" "}
-            <a href="#Contact" className="link">
-              Contact
-            </a>
-          </span>
-        ) : (
+        {/* {window.innerWidth > 800 ? ( */}
+        <span>
+          <a href="#home" className="link">
+            Home
+          </a>
+          <a href="#About" className="link">
+            About
+          </a>{" "}
+          <a href="#Service" className="link">
+            Service
+          </a>{" "}
+          <a href="#Portfolio" className="link">
+            Portfolio
+          </a>{" "}
+          <a href="#Contact" className="link">
+            Contact
+          </a>
+        </span>
+        {/* ) : (
           false
-        )}
+        )} */}
       </div>
       <div className="social_links">
         <a
@@ -56,17 +56,11 @@ function Navbar() {
           <AiFillGithub className="social_icon" />
         </a>
       </div>
-      {window.innerWidth > 800 ? (
-        <Button
-          variant="outlined"
-          className="nav_contact_button"
-          href="#Contact"
-        >
-          Contact now
-        </Button>
-      ) : (
-        <Drawer />
-      )}
+      {/* {window.innerWidth > 800 ? ( */}
+      <Button variant="outlined" className="nav_contact_button" href="#Contact">
+        Contact now
+      </Button>
+      <Drawer className="drawer" />
     </div>
   );
 }

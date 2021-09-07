@@ -31,6 +31,12 @@ const useStyles = makeStyles((theme) =>
       width: "auto",
       border: "1px",
     },
+    button: {
+      display: "none",
+      [theme.breakpoints.down(800)]: {
+        display: "inline-block",
+      },
+    },
   })
 );
 
@@ -92,6 +98,7 @@ export default function TemporaryDrawer() {
           <Button
             onClick={toggleDrawer(anchor, true)}
             style={{ color: "white" }}
+            className={classes.button}
           >
             <MenuIcon />
           </Button>

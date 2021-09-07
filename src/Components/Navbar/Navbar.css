@@ -62,13 +62,28 @@
   border: 1px solid white !important;
   transform: translateY(-2px) !important;
 }
+.drawer {
+  display: none;
+  border: 1px solid white;
+}
+@media (max-width: 800px) {
+  .link {
+    display: none;
+  }
+  .nav_contact_button {
+    display: none !important;
+  }
+  .drawer {
+    display: none !important;
+  }
+}
 @media (max-width: 600px) {
   .social_links {
     flex: 1.5;
   }
 }
 @media (max-width: 400px) {
-  .navbar{
+  .navbar {
     width: 96% !important;
   }
 }
