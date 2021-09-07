@@ -23,7 +23,6 @@ function Service() {
       <div className="service_cards">
         <Slide right>
           <Paper variant={2} className="card">
-            {/* <FiMonitor className="card_icon" /> */}
             <img
               src="/Images/monitor.png"
               alt="web-design"
@@ -40,7 +39,6 @@ function Service() {
         </Slide>
         <Slide right>
           <Paper variant={2} className="card">
-            {/* <ImStack className="card_icon" /> */}
             <img
               src="/Images/cube-of-notes-stack.png"
               alt="web-design"
@@ -57,7 +55,6 @@ function Service() {
         </Slide>
         <Slide right>
           <Paper variant={2} className="card">
-            {/* <SiAzuredevops className="card_icon" /> */}
             <img
               src="/Images/web-design.png"
               alt="web-design"

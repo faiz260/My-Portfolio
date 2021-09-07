@@ -139,20 +139,78 @@
 }
 .about_div3 {
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   width: 90vw;
   margin-top: 5vw;
 }
 .education {
   margin-top: 5vw;
+  text-align: center;
+  width: 90%;
+}
+.ex_cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .edu_text {
   color: #c8cbdabf !important;
   font-family: Poppins !important;
   margin-bottom: 1vw !important;
   font-size: 1.6vw !important;
-  width: 43vw;
+  text-align: center;
+}
+.ex_card {
+  margin-top: 1rem;
+  background-color: #101010 !important;
+  height: 25vw;
+  width: 25vw;
+  border-radius: 2vw !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.5vw;
+}
+.ex_card:hover {
+  background-image: linear-gradient(
+    90deg,
+    hsl(3deg 93% 51%),
+    hsl(337deg 93% 49%)
+  ) !important;
+  cursor: pointer;
+  transition: 0.3s ease-in-out !important;
+  transform: translateY(-1vw) !important;
+}
+.ex_card_head {
+  color: white !important;
+  font-weight: 400 !important;
+  font-size: 2vw !important;
+  font-family: "Poppins", sans-serif !important;
+  background-color: #101010;
+  border-radius: 50%;
+  width: 98%;
+  height: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ex_card_head_div {
+  background-image: linear-gradient(
+    90deg,
+    hsl(3deg 93% 51%),
+    hsl(337deg 93% 49%)
+  );
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ex_card_icon {
+  width: 8vw;
 }
 @media (max-width: 979px) {
   .about_bg {
@@ -160,10 +218,31 @@
     height: 55vw;
     top: 76.5vw;
   }
+  .ex_card {
+    width: 30vw;
+    height: 30vw;
+    margin: 2vw;
+  }
 }
 @media (max-width: 700px) {
+  .ex_card {
+    width: 50vw;
+    height: 40vw;
+    margin: 2vw;
+  }
+  .card_icon {
+    font-size: 5vw !important;
+    width: 2rem !important;
+  }
+  .ex_card_head {
+    font-size: 3.5vw !important;
+  }
   .about_div3 {
     flex-direction: column;
+  }
+  .ex_card_head_div {
+    width: 50%;
+    height: 65%;
   }
   .education {
     width: 90vw;
@@ -175,9 +254,6 @@
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-  }
-  .edu_text {
-    font-size: 1.5vw !important;
   }
   .shape4 {
     top: 130vw;
@@ -204,6 +280,16 @@
   }
 }
 @media (max-width: 600px) {
+  .ex_card {
+    width: 20rem;
+    height: 18rem;
+  }
+  .ex_card_head {
+    font-size: 1.5rem !important;
+  }
+  .ex_card_icon {
+    width: 4rem !important;
+  }
   .about_me {
     height: 90vw;
   }
@@ -220,9 +306,7 @@
     align-items: center;
     justify-content: center;
   }
-  .edu_text {
-    font-size: 2vw !important;
-  }
+
   .education > div {
     align-items: baseline;
   }
@@ -250,6 +334,13 @@
   }
 }
 @media (max-width: 400px) {
+  .ex_card {
+    width: 18rem;
+    height: 16rem;
+  }
+  .ex_card_head {
+    font-size: 1.2rem !important;
+  }
   .about_me {
     padding-top: 10vw !important;
     height: 80vw;
@@ -265,7 +356,7 @@
     font-size: 5vw !important;
   }
   .edu_text {
-    font-size: 3vw !important;
+    font-size: 0.8rem !important;
     width: 100vw;
   }
   .education {

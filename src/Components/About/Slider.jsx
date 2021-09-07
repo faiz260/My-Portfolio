@@ -12,12 +12,12 @@ const useStyles = makeStyles((theme) =>
       color: "#c6c9d8bf !important",
       width: "100%",
       fontFamily: "Poppins !important",
-      fontSize: "1.5vw !important",
+      fontSize: "1rem !important",
       [theme.breakpoints.down("md")]: {
-        fontSize: "1.5vw !important",
+        fontSize: "1rem !important",
       },
       [theme.breakpoints.down("sm")]: {
-        fontSize: "3vw !important",
+        fontSize: "1rem !important",
       },
     },
   })

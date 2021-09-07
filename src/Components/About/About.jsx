@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography } from "@material-ui/core";
+import { Typography, Paper } from "@material-ui/core";
 import Slider from "./Slider";
 import "./About.css";
 import AboutMe from "./AboutMe";
@@ -49,63 +49,51 @@ function About() {
           <div className="education">
             <Fade bottom>
               <Typography variant="h2" className="main_skills_head">
-                Education
-              </Typography>
-            </Fade>
-            <Fade bottom>
-              <div>
-                <Typography variant="subtitle1" className="edu_text">
-                  {" "}
-                  <strong> BSCS </strong>- Bahria University Karachi Campus
-                  <br /> 2020 - Current
-                </Typography>
-
-                <Typography variant="subtitle1" className="edu_text">
-                  {" "}
-                  <strong> Intermediate </strong>- DJ Sindh Government Science
-                  College <br /> 2017 - 2019
-                </Typography>
-                <Typography variant="subtitle1" className="edu_text">
-                  {" "}
-                  <strong> School </strong>- Tayyab Ali A Alavi Boys Secondary
-                  School <br /> 2017
-                </Typography>
-                <Typography variant="subtitle1" className="edu_text">
-                  {" "}
-                  <strong> Mobile and Web Development </strong>- Axiom
-                  Educations
-                  <br /> 2019
-                </Typography>
-              </div>
-            </Fade>
-          </div>
-          <div className="education">
-            <Fade bottom>
-              <Typography variant="h2" className="main_skills_head">
                 Experience
               </Typography>
             </Fade>
             <Fade bottom>
-              <div>
-                <Typography variant="subtitle1" className="edu_text">
-                  {" "}
-                  I have a <strong> 2 years </strong>experience in React JS.
-                </Typography>
-                <Typography variant="subtitle1" className="edu_text">
-                  {" "}
-                  Expertise in Front End development.
-                </Typography>
-                <Typography variant="subtitle1" className="edu_text">
-                  {" "}
-                  Have build several projects using different tools and
-                  technologies with React JS like Redux, Redux Toolkit, Mirage,
-                  Material UI, React Bootstrap, Web Animations and much more.
-                </Typography>
-                <Typography variant="subtitle1" className="edu_text">
-                  {" "}
-                  Have a strong grip on writing custom CSS and making web pages
-                  more attractive.
-                </Typography>
+              <div className="ex_cards">
+                <Slide right>
+                  <Paper variant={2} className="ex_card">
+                    <div className="ex_card_head_div">
+                      <Typography variant="h2" className="ex_card_head">
+                        2 years experience
+                      </Typography>
+                    </div>
+                    <img
+                      src="/Images/react.png"
+                      alt="web-design"
+                      className="ex_card_icon"
+                    />
+                  </Paper>
+                </Slide>
+                <Slide right>
+                  <Paper variant={2} className="ex_card">
+                    <div className="ex_card_head_div">
+                      <Typography variant="h2" className="ex_card_head">
+                        Expertise in Front-End
+                      </Typography>
+                    </div>
+                    <div>
+                      <img
+                        src="/Images/html.png"
+                        alt="web-design"
+                        className="ex_card_icon"
+                      />
+                      <img
+                        src="/Images/css.png"
+                        alt="web-design"
+                        className="ex_card_icon"
+                      />
+                      <img
+                        src="/Images/javascript.png"
+                        alt="web-design"
+                        className="ex_card_icon"
+                      />
+                    </div>
+                  </Paper>
+                </Slide>
               </div>
             </Fade>
           </div>

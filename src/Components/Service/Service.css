@@ -34,7 +34,7 @@
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: 95vw;
+  width: 99%;
   margin-top: -3vw;
 }
 .card {
@@ -96,15 +96,7 @@
   .card_head {
     font-size: 4vw !important;
   }
-  .card {
-    width: 50vw;
-    height: 40vw;
-    margin: 2vw;
-  }
-  .card_icon {
-    font-size: 5vw !important;
-    width:2rem !important;
-  }
+  
 }
 @media (max-width: 600px) {
   .service_text {
