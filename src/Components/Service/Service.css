@@ -38,7 +38,7 @@
   margin-top: -3vw;
 }
 .card {
-  height: 25vw;
+  min-height: 25vw;
   width: 25vw;
   background-color: #181818 !important;
   border-radius: 2vw !important;
@@ -51,22 +51,21 @@
 .card_head {
   color: white !important;
   font-weight: 400 !important;
-  font-size: 2.5vw !important;
+  font-size: 1.5rem !important;
   font-family: "Poppins", sans-serif !important;
-  margin-bottom: 1vw !important;
+  margin: 1vw 0 !important;
 }
 .card_text {
+  min-height: 15vw;
   color: #c8cbdabf !important;
   font-family: Poppins !important;
-  margin-bottom: 1vw !important;
-  font-size: 1.5vw !important;
+  font-size: 0.95rem !important;
   width: 90%;
   text-align: justify;
 }
 .card_icon {
-  color: white !important; 
-  font-size: 4vw !important;
-  width: 4vw !important;
+  color: white !important;
+  font-size: 2rem !important;
 }
 .card:hover {
   background-image: linear-gradient(
@@ -78,25 +77,30 @@
   transition: 0.3s ease-in-out !important;
   transform: translateY(-1vw) !important;
 }
-
+.card:hover > .card_head {
+  color: #101010 !important;
+}
+.card:hover > .card_text {
+  color: #101010 !important;
+}
+.card:hover > .card_icon {
+  color: #101010 !important;
+}
 @media (max-width: 900px) {
   .card {
     width: 30vw;
-    height: 30vw;
     margin: 2vw;
   }
 }
 @media (max-width: 700px) {
+  .card {
+    width: 35vw;
+    margin: 2vw;
+    padding: 1rem;
+  }
   .service_text {
     font-size: 1.9vw !important;
   }
-  .card_text {
-    font-size: 2vw !important;
-  }
-  .card_head {
-    font-size: 4vw !important;
-  }
-  
 }
 @media (max-width: 600px) {
   .service_text {
@@ -109,12 +113,12 @@
   }
   .card {
     width: 70vw;
-    height: 40vw;
     margin: 2vw;
   }
-  .card_text {
-    font-size: 2.5vw !important;
+  .card_icon{
+    padding: 0.5rem 0;
   }
+
 }
 @media (max-width: 400px) {
   .service_text {
@@ -125,19 +129,17 @@
     width: 80vw;
   }
   .card_text {
-    font-size: 3vw !important;
     width: 70vw !important;
     margin-left: 2vw !important;
   }
   .service_head {
     font-size: 7vw !important;
   }
-  .card_icon {
-    width: 1.5rem !important;
+
+  .card_head {
     margin-left: 2vw !important;
   }
-  .card_head {
-    font-size: 5vw !important;
-    margin-left: 2vw !important;
+  .card_icon{
+    font-size: 2rem !important;
   }
 }

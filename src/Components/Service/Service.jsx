@@ -2,7 +2,10 @@ import React from "react";
 import { Typography, Paper } from "@material-ui/core";
 import "./Service.css";
 import Fade from "react-reveal/Fade";
-import Slide from "react-reveal/Slide";
+import Flip from "react-reveal/Flip";
+import { FaMobileAlt } from "react-icons/fa";
+import { TiClipboard } from "react-icons/ti";
+import { GoGraph } from "react-icons/go";
 
 function Service() {
   return (
@@ -21,55 +24,45 @@ function Service() {
         </Typography>
       </div>
       <div className="service_cards">
-        <Slide right>
+        <Flip right>
           <Paper variant={2} className="card">
-            <img
-              src="/Images/monitor.png"
-              alt="web-design"
-              className="card_icon"
-            />
+            <FaMobileAlt className="card_icon" />
             <Typography variant="h2" className="card_head">
-              Front-end Development
+              Responsiveness
             </Typography>
             <Typography variant="subtitle1" className="card_text">
-              I develop front-end for the web + apps that will attract more users.
-              I will turn your design into reality with super responsiveness.
+              I develop websites that the user can open on any device of any
+              screen size, your website's design will not break and it will
+              adjust beautifully.
             </Typography>
           </Paper>
-        </Slide>
-        <Slide right>
+        </Flip>
+        <Flip right>
           <Paper variant={2} className="card">
-            <img
-              src="/Images/cube-of-notes-stack.png"
-              alt="web-design"
-              className="card_icon"
-            />
+            <TiClipboard className="card_icon" />
             <Typography variant="h2" className="card_head">
-              Full Stack development
+              Creative Design
             </Typography>
             <Typography variant="subtitle1" className="card_text">
-              The stack you need to grow your bussiness will be done by me, with
-              the latest stack in my skillse.
+              I design aesthetically pleasing and appealing designs that will
+              stick the user's eye balls on your website and they will stay
+              longer on your page.
             </Typography>
           </Paper>
-        </Slide>
-        <Slide right>
+        </Flip>
+        <Flip right>
           <Paper variant={2} className="card">
-            <img
-              src="/Images/web-design.png"
-              alt="web-design"
-              className="card_icon"
-            />
+            <GoGraph className="card_icon" />
             <Typography variant="h2" className="card_head">
-              Web Design
+              Business Scalability
             </Typography>
             <Typography variant="subtitle1" className="card_text">
-              I have a very unique and creative designs for your bussiness,
-              personal or any kind of app that will stick the eye balls of the
-              users on it.
+              My first priority is to scale the Businesses of my clients by the
+              means of technology and latest tools that will help them grow
+              potentially in thier Business.
             </Typography>
           </Paper>
-        </Slide>
+        </Flip>
       </div>
     </div>
   );

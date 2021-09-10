@@ -120,7 +120,6 @@
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  /* margin-top: 10vw; */
 }
 .main_skills_head {
   color: white !important;
@@ -130,7 +129,6 @@
   margin-bottom: 5vw !important;
 }
 .skills_div {
-  /* border: 1px solid; */
   width: 100%;
   display: flex;
   align-items: center;
@@ -209,6 +207,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .ex_card_icon {
   width: 8vw;
 }
@@ -278,7 +277,7 @@
     left: 15vw;
     width: 5vw;
   }
-  .main_skills_head{
+  .main_skills_head {
     font-size: 2rem !important;
   }
 }

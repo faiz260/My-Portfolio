@@ -58,12 +58,14 @@ function Service() {
         <Slide left>
           {data.map((data) => {
             return (
-              <Paper variant={2} className="portfolio_card">
-                <img
-                  src={data.img}
+              <Paper
+                variant={2}
+                className="portfolio_card"
+              >
+                <div
+                  style={{ backgroundImage: `url(${data.img})` }}
                   className="portfolio_card_img"
-                  alt="project"
-                ></img>
+                ></div>
                 <Typography variant="h2" className="portfolio_card_head">
                   {data.title}
                 </Typography>
