@@ -1,27 +1,30 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import "./App.css";
-import Navbar from "./Components/Navbar/Navbar";
-import Home from "./Components/Home/Home";
-import About from "./Components/About/About";
-import Service from "./Components/Service/Service";
-import Portfolio from "./Components/Portfolio/Portfolio";
-import Contact from "./Components/Contact/Contact";
-import Footer from "./Components/Footer/Footer";
 import ReactParticles from "react-particles-js";
 import particlesConfig from "./particles-config";
+import Loader from "./Components/Loader/Loader";
+const Home = lazy(() => import("./Components/Home/Home"));
+const Navbar = lazy(() => import("./Components/Navbar/Navbar"));
+const Service = lazy(() => import("./Components/Service/Service"));
+const About = lazy(() => import("./Components/About/About"));
+const Portfolio = lazy(() => import("./Components/Portfolio/Portfolio"));
+const Contact = lazy(() => import("./Components/Contact/Contact"));
+const Footer = lazy(() => import("./Components/Footer/Footer"));
 
 function App() {
   return (
     <div className="App">
-      <Particles>
-        <Navbar />
-        <Home />
-      </Particles>
-      <About />
-      <Service />
-      <Portfolio />
-      <Contact />
-      <Footer />
+      <Suspense fallback={<Loader />}>
+        <Particles>
+          <Navbar />
+          <Home />
+        </Particles>
+        <About />
+        <Service />
+        <Portfolio />
+        <Contact />
+        <Footer />
+      </Suspense>
     </div>
   );
 }
