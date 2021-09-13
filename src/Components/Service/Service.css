@@ -64,7 +64,7 @@
   text-align: justify;
 }
 .card_icon {
-  color: white !important;
+  color: #f90048 !important;
   font-size: 2rem !important;
 }
 .card:hover {

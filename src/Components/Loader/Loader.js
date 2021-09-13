@@ -3,19 +3,21 @@ import "./Loader.css";
 
 function Loader() {
   return (
-    <main>
-      <div class="preloader">
-        <div class="preloader__square"></div>
-        <div class="preloader__square"></div>
-        <div class="preloader__square"></div>
-        <div class="preloader__square"></div>
+    <div class="middle">
+      <div>
+        <div class="bar bar1"></div>
+        <div class="bar bar2"></div>
+        <div class="bar bar3"></div>
+        <div class="bar bar4"></div>
+        <div class="bar bar5"></div>
+        <div class="bar bar6"></div>
+        <div class="bar bar7"></div>
+        <div class="bar bar8"></div>
       </div>
-      <div class="status">
-        Loading<span class="status__dot">.</span>
-        <span class="status__dot">.</span>
-        <span class="status__dot">.</span>
+      <div>
+        <h1>Loading...</h1>
       </div>
-    </main>
+    </div>
   );
 }
 

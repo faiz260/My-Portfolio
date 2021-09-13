@@ -46,7 +46,7 @@ function Contact() {
           <Fade bottom>
             {" "}
             I am available for freelance work. Connect with me via phone:
-            03462772919 or email: razafaiz@gmail.com
+            +923462772919 or email: razafaiz@gmail.com
           </Fade>
         </Typography>
 
