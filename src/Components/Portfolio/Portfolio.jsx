@@ -7,7 +7,7 @@ import Slide from "react-reveal/Slide";
 const data = [
   {
     title: "SaaS App UI",
-    desc: "A small clone of the Amazon website with add-to-cart functionality. The cart is functional as well where you will see the selected products and total bill.",
+    desc: "UI of a SaaS application with ReactJS and CSS hosted on Netlify with CI/CD pipeline.",
     img: "/Images/saas_ui.png",
     link: "https://saas-app-ui.netlify.app/",
   },
@@ -16,6 +16,12 @@ const data = [
     desc: "A blog website created with Gatsby, Contentful, Netlify with CI/CD pipeline and gated content.",
     img: "/Images/YouRead.png",
     link: "https://youread.netlify.app/",
+  },
+  {
+    title: "Burger Bachelors",
+    desc: " A website for a Restaurant created using ReactJS, Netlify with CI/CD pipeline.",
+    img: "/Images/burgerbachelors.png",
+    link: "  https://burgerbachelors.netlify.app/",
   },
   {
     title: "The Smart Solutions",
@@ -58,10 +64,7 @@ function Service() {
         <Slide left>
           {data.map((data) => {
             return (
-              <Paper
-                variant={2}
-                className="portfolio_card"
-              >
+              <Paper variant={2} className="portfolio_card">
                 <div
                   style={{ backgroundImage: `url(${data.img})` }}
                   className="portfolio_card_img"
